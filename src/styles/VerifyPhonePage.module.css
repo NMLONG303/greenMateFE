@@ -1,0 +1,63 @@
+.verifyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Để container chiếm toàn bộ chiều cao màn hình */
+    background-color: #e0f2f7; /* Phân bố không gian giữa các phần */
+  }
+  
+  .verifyTitle {
+    margin-top: 10%;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #212121; /* Màu xanh lá cây đậm */
+    margin-bottom: 10px;
+  }
+  
+  .verifySubtitle {
+    color: #212121;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .inputGroup {
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #d4d4d4;
+    padding: 15px 15px;
+    width: 70%;
+  }
+  
+  .inputField {
+    border: none;
+    outline: none;
+    font-size: 1em;
+    width: 80%;
+  }
+  
+  .nextButton {
+    background-color: #388e3c; /* Màu xanh lá cây đậm */
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 80%;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+  }
+  
+  .nextButton:hover {
+    background-color: #2e7d32; /* Màu xanh lá cây đậm hơn khi hover */
+  }
+  
+  .nextButton:active {
+    background-color: #1b5e20; /* Màu xanh lá cây đậm nhất khi nhấn */
+  }
+  
+  .logo {
+    position: absolute;
+    bottom: 10%;
+  }

@@ -1,0 +1,115 @@
+.orderContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Light grey background */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .contentArea {
+    flex-grow: 1;
+    padding: 20px;
+    margin-bottom: 60px; /* Space for bottom nav */
+  }
+  
+  .sectionTitle {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 2px solid #4CAF50; /* Green underline */
+    padding-bottom: 5px;
+  }
+  
+  .infoSection {
+    background-color: #fff; /* White background for sections */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .infoRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dashed #eee; /* Dashed separator */
+  }
+  
+  .infoRow:last-child {
+    border-bottom: none; /* No border for the last row */
+  }
+  
+  .infoLabel {
+    font-weight: bold;
+    color: #555;
+    flex-basis: 40%; /* Give labels some width */
+  }
+  
+  .infoValue,
+  .infoInput {
+    flex-basis: 55%; /* Give values/inputs some width */
+    text-align: right;
+    color: #333;
+  }
+  
+  .infoInput {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 8px;
+    text-align: right;
+  }
+  
+  .createOrderButton {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px; /* Rounded button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .createOrderButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .contentArea {
+      padding: 10px;
+    }
+  
+    .sectionTitle {
+      font-size: 1.3em;
+    }
+  
+    .infoLabel,
+    .infoValue,
+    .infoInput {
+      flex-basis: auto; /* Let content determine width */
+      text-align: left;
+    }
+  
+    .infoRow {
+      flex-direction: column; /* Stack label and value on small screens */
+      align-items: flex-start;
+    }
+  
+    .infoInput {
+        width: 100%; /* Make input take full width */
+        margin-top: 5px;
+        box-sizing: border-box; /* Include padding and border in element's total width */
+        text-align: left;
+    }
+  
+    .createOrderButton {
+      width: 95%;
+      padding: 12px;
+    }
+  }
+  

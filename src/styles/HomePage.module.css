@@ -1,0 +1,99 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f8f0; /* Màu nền nhạt */
+  }
+  
+  /* Header Styles */
+  .header {
+    left: 0; /* Kéo dài từ trái sang phải */
+    right: 0; /* Kéo dài từ trái sang phải */
+  }
+  .nav {
+    position: fixed; /* Sử dụng fixed positioning */
+    bottom: 0; /* Cố định ở dưới cùng */
+    left: 0; /* Kéo dài từ trái sang phải */
+    right: 0; /* Kéo dài từ trái sang phải */
+    z-index: 10; /* Đảm bảo nó ở trên các nội dung khác nếu cần */
+  }
+
+  
+  .headerLeft {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoImage {
+    width: 80%;
+    height: auto;
+
+  }
+  
+
+  
+  .greeting {
+    font-weight: bold;
+    color: #388e3c;
+    font-size: 1em;
+  }
+  
+  .wish {
+    color: #555;
+    font-size: 0.9em;
+  }
+  
+  .headerIcon {
+    right: 10%;
+    font-size: 1.5em;
+    color: #388e3c;
+  }
+  
+  .tabButton {
+    background: none;
+    border: none;
+    color: #1976d2;
+    cursor: pointer;
+    font-size: 0.9em;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .tabButton:hover {
+    background-color: #bbdefb;
+  }
+  
+  /* Section Styles */
+  .sectionTitle {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #388e3c;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Tạo layout lưới linh hoạt */
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .gridItem {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .newsItem, .guideItem, .videoItem, .activityItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Chiều cao cố định cho các item */
+    background-color: #e0e0e0; /* Màu placeholder */
+    color: #757575;
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  
+ 

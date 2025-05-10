@@ -1,0 +1,172 @@
+.achievementContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f8f0; /* Màu nền nhạt */
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .level {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #388e3c; /* Màu xanh lá cây đậm */
+    margin-bottom: 15px;
+  }
+  
+  .trophyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .trophy {
+    font-size: 4em;
+    color: gold; /* Màu vàng của cúp */
+    margin-bottom: 10px;
+  }
+  
+  .progressBar {
+    background-color: #ddd;
+    width: 200px;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 5px;
+  }
+  
+  .progress {
+    background-color: #aed581; /* Màu xanh lá cây nhạt hơn cho tiến trình */
+    height: 100%;
+    width: 70%; /* Điều chỉnh theo tiến trình thực tế */
+    border-radius: 5px;
+  }
+  
+  .progressText {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .taskTabs {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .tabButton {
+    background-color: #e0e0e0;
+    color: #555;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  .tabButton:last-child {
+    margin-right: 0;
+  }
+  
+  .tabButton.active {
+    background-color: #388e3c;
+    color: white;
+  }
+  
+  .dailyTask {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .taskDescription {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .taskProgress {
+    color: #007bff; /* Màu xanh dương cho tiến trình */
+    font-weight: bold;
+  }
+  
+  .reward {
+    color: #ffc107; /* Màu vàng cho phần thưởng */
+    font-weight: bold;
+  }
+  
+  .calendar {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .calendarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .calendarNav {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .calendarMonth {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: #777;
+    font-size: 0.8em;
+  }
+  
+  .daysGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #555;
+    font-size: 0.9em;
+  }
+  
+  .taskIndicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #aed581; /* Màu xanh lá cây cho ngày có nhiệm vụ hoàn thành */
+    margin-top: 3px;
+  }

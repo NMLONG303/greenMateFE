@@ -1,0 +1,57 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Để container chiếm toàn bộ chiều cao màn hình */
+    background-color: #e0f2f7; /* Màu nền nhạt tương tự ảnh */
+  }
+  .welcome{
+    position: absolute;
+    top: 30%;
+  }
+  
+  .buttonSection {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .loginButton, .registerButton {
+    padding: 6px 5px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: 2px solid #212121;
+  }
+  
+  .loginButton {
+    margin-top: 50px;
+    background-color: #ffe0b2; /* Màu be nhạt */
+    color: #212121; /* Màu tím đậm hơn */
+  }
+  
+  .registerButton {
+    background-color: #f5f5f5; /* Màu trắng nhạt */
+    color: #212121; /* Màu đen */
+  }
+
+  .logo{
+    position: absolute;
+    bottom: 10%;
+  }
+  .loginButton:hover {
+    background-color: #ffca28; /* Màu vàng cam khi hover */
+  }
+  
+  .loginButton:active {
+    background-color: #ffa000; /* Màu cam đậm hơn khi nhấn */
+  }
+  .registerButton:hover {
+    background-color: #c5c5c5d2; /* Màu vàng cam khi hover */
+  }
+  
+  .registerButton:active {
+    background-color: #5c5c5c; /* Màu cam đậm hơn khi nhấn */
+  }
+  

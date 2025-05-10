@@ -1,0 +1,39 @@
+.bottomNav {
+    background-color: #388e3c; /* Màu xanh lá cây đậm */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  .navButton {
+    background: none;
+    border: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.8em;
+    text-decoration: none; /* Nếu bạn vô tình thêm link vào button */
+  }
+  
+  .navButton img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .navLabel {
+    font-size: 0.7em;
+  }
+  
+  .navButton.active {
+    font-weight: bold;
+    color: #aed581; /* Màu sáng hơn khi active */
+  }

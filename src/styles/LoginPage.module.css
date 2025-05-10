@@ -1,0 +1,175 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Để container chiếm toàn bộ chiều cao màn hình */
+    background-color: #e0f2f7;  /* Phân bố không gian giữa các phần */
+  }
+  
+  .loginTitle {
+    margin-top: 10%;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #212121; 
+    margin-bottom: 30px;
+  }
+  
+  .inputGroup {
+    
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    border: none;                 /* bỏ viền mặc định */
+    border: 2px solid #000000;
+    padding: 0 10px;
+  }
+  
+  .inputIcon {
+    margin-right: 10px;
+    color: #757575;
+  }
+  
+  .inputField {
+    flex-grow: 1;
+    padding: 12px 0;
+    border: none;
+    outline: none;
+    font-size: 1em;
+  }
+  
+  .rememberForgotPassword {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .rememberMe {
+    display: flex;
+    align-items: center;
+    color: #555;
+    margin: 10px;
+  }
+  
+  .rememberMe input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .forgotPassword {
+    color: #1976d2;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  
+  .forgotPassword:hover {
+    text-decoration: underline;
+  }
+  
+  .loginButton {
+    background-color: #388e3c; /* Màu xanh lá cây đậm */
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 60%;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .loginButton:hover {
+    background-color: #2e7d32; /* Màu xanh lá cây đậm hơn khi hover */
+  }
+  
+  .loginButton:active {
+    background-color: #1b5e20; /* Màu xanh lá cây đậm nhất khi nhấn */
+  }
+  
+  .socialLogin {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .divider {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #d4d4d4;
+  }
+  
+  .socialText {
+    margin: 0 15px;
+    color: #757575;
+    font-size: 0.9em;
+  }
+  
+  .socialButtons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .socialButton {
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  
+  .socialButton svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+  }
+  
+  .facebookButton {
+    background-color: #1877f2;
+  }
+  
+  .facebookButton:hover {
+    opacity: 0.9;
+  }
+  
+  .googleButton {
+    background-color: #db4437;
+  }
+  
+  .googleButton:hover {
+    opacity: 0.9;
+  }
+  
+  .registerSection {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .registerText {
+    color: #555;
+    font-size: 0.9em;
+    margin-right: 5px;
+  }
+  
+  .registerLink {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .registerLink:hover {
+    text-decoration: underline;
+  }
+  
+  .logo{
+    position: absolute;
+    bottom: 10%;
+  }
+  
+  

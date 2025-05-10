@@ -1,0 +1,59 @@
+.header {
+    background-color: #e0fce4; /* Màu header nhạt */
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d4d4d4;
+    margin: 0;
+    
+  }
+  
+  .headerLeft {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoImage {
+    width: 150px;
+  }
+  
+  .headerRight {
+    text-align: left;
+  }
+  
+  .greeting {
+    font-weight: bold;
+    color: #212121;
+    font-size: 1.1em;
+  }
+  
+  .wish {
+    color: #555;
+    font-size: 0.9em;
+  }
+  
+  .tabButton {
+    background: none;
+    border: none;
+    color: #212121;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 5px;
+  }
+  
+  .tabButton:hover {
+    background-color: #999999;
+  }
+  .userProfileOverlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 100;
+    padding: 20px;
+  }

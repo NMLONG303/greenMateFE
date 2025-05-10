@@ -1,0 +1,80 @@
+.registerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Để container chiếm toàn bộ chiều cao màn hình */
+    background-color: #e0f2f7; /* Phân bố không gian giữa các phần */
+  }
+  
+  .registerTitle {
+    margin-top: 10%;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #388e3c; /* Màu xanh lá cây đậm */
+  }
+  
+  .inputGroup {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d4d4d4; /* Chỉ có border bottom */
+    padding: 10px 0; /* Điều chỉnh padding cho phù hợp */
+    width: 80%;
+  }
+  
+  .inputIcon {
+    margin-right: 15px;
+    color: #757575;
+  }
+  
+  .inputField {
+    flex-grow: 1;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    font-size: 1em;
+  }
+  
+  .termsAndPolicy {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 0.9em;
+    width: 80%
+  }
+  
+  .termsAndPolicy input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .confirmButton {
+    background-color: #388e3c; /* Màu xanh lá cây đậm */
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 80%;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+  }
+  
+  .confirmButton:hover {
+    background-color: #2e7d32; /* Màu xanh lá cây đậm hơn khi hover */
+  }
+  
+  .confirmButton:active {
+    background-color: #1b5e20; /* Màu xanh lá cây đậm nhất khi nhấn */
+  }
+  
+  
+  .logo{
+    position: absolute;
+    bottom: 10%;
+  }
+  
+  
